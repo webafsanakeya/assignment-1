@@ -72,3 +72,114 @@ nav > ul > li{
     width: 475px;
     padding: 80px 60px 80px 0;
 }
+/* pillar styles */
+.pillars {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.pillars-container{
+    display: flex;
+    gap: 24px;
+}
+.pillar{
+    padding: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin-top: 32px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.pillar-description{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+/* vision styles */
+.visions{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+}
+.vision-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.vision{
+    padding: 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin-top: 32px;
+    
+}
+.bg-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+.bg-3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+.vision-btn-1{
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin: 35px 20px 35px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+.vision-btn-2{
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin: 35px 20px 35px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+.vision-btn-3{
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin: 35px 20px 35px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+.caption-queto{
+    padding: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.caption-info{
+    font-size: 16px;
+    font-size: 400;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 48px 24px;
+}
+.caption-title{
+    font-size: 20px;
+    font-size: 700;
+    margin-top: 12px;
+}
+.caption-description{
+    font-size: 16px;
+    font-size: 400;
+    counter-reset: rgba(14, 14, 14, 0.6);
+    margin-top: 12px;
+}
+
