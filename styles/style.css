@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* google fonts styles */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared styles */
+  .btn-primary {
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 17px 34px;
+  } 
+
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 160px;
+    background-color: rgba(245, 245, 245, 1);
+}
+.nav-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+nav > ul > li{
+    list-style: none;
+}
+.nav-btn{
+    color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+/* banner styles */
