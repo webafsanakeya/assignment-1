@@ -48,7 +48,7 @@ nav > ul > li{
 }
 /* banner styles */
 .banner{
-    max-width: 1280px;
+    max-width: 1140px;
     background-color: rgba(198, 228, 214, 1);
     display: flex;
     justify-content: space-between;
@@ -74,7 +74,7 @@ nav > ul > li{
 }
 /* pillar styles */
 .pillars {
-    max-width: 1280px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -101,7 +101,7 @@ nav > ul > li{
 }
 /* vision styles */
 .visions{
-    max-width: 1280px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -168,7 +168,7 @@ nav > ul > li{
 .caption-info{
     font-size: 16px;
     font-size: 400;
-    color: rgba(14, 14, 14, 0.8);
+    color: rgba(14, 14, 14, 0.7);
     padding: 48px 24px;
 }
 .caption-title{
@@ -184,9 +184,19 @@ nav > ul > li{
 }
 /* recent-news styles */
 .recent-news{
-    max-width: 1280px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 80px;
+}
+.news-item{
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-description{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
 }
 .news-container{
     margin-top: 32px;
@@ -210,5 +220,79 @@ nav > ul > li{
     font-weight: 600;
     border: none;
 }
-
+/* donates styles */
+.donates{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.donates-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donates-description{
+    margin-top: 24px;
+    padding: 10px 32px;
+}
+.donate{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.donate-card-1{
+    gap: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+.donate-card-2{
+    gap: 24px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 40px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+.donate-card-3{
+    gap: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+.donate-card-4{
+    gap: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+.card-items{
+    font-size: 40px;
+    font-weight: bold;
+}
+input {
+    margin-top: 32px;
+    padding: 20px 40px;
+    gap: 24px;
+    width: 1032px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    border-style: none;
+    
+}
+.donate-btn{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin: 35px 20px 35px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
 
